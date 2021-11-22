@@ -17,9 +17,9 @@ function header({ currentPage, handlePageChange }) {
                 >About</a>
             </li>
             <li className="nav nav-item">
-                <a href="#about" onClick={() => handlePageChange('Work')}
+                <a href="#work" onClick={() => handlePageChange('Work')}
                 //this ternary check is copied from a class activity
-                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
                 >Work</a>
             </li>
         </ul>
