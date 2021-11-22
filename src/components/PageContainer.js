@@ -34,7 +34,7 @@ export default function PageContainer() {
   }
 
   return (
-    <div className="ui container">
+    <div className="ui container" style={{ backgroundImage: "url(/img/erol-ahmed-jIZmcB5UIrQ-unsplash.jpg)"}}>
       {/* Here is the Header. currentPage and handlePageChange are props */}
       <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
       <div className="ui grid">
