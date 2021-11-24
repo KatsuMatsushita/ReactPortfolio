@@ -5,8 +5,9 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import Header from "./header";
 import Footer from "./footer";
-import Work from "./pages/work";
-
+import Portfolio from "./pages/portfolio";
+import Resume from "./pages/resume";
+import Contact from "./pages/contact";
 
 export default function PageContainer() {
   // When the page loads, set the document title to something specific to this app.
@@ -26,13 +27,17 @@ export default function PageContainer() {
         return <Home />;
       case "About":
         return <About />;
-      case "Work":
-        return <Work />;
+      case "Portfolio":
+        return <Portfolio />;
+      case "Contact":
+          return <Contact />;
+      case "Resume":
+          return <Resume />;
       default:
         return <Home />;
     }
   }
-
+  // background image made by Erol Ahmed, downloaded from unsplash.com
   return (
     <div className="ui container" style={{ backgroundImage: "url(/img/erol-ahmed-jIZmcB5UIrQ-unsplash.jpg)"}}>
       {/* Here is the Header. currentPage and handlePageChange are props */}
