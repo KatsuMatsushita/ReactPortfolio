@@ -17,7 +17,7 @@ export default function PageContainer() {
   }, []);
 
   // this sets the useState for the page, and allows for changing the displayed page
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("About");
 
   const handlePageChange = (page) => setCurrentPage(page);
 
