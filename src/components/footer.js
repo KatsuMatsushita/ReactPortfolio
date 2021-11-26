@@ -10,8 +10,22 @@ function footer() {
         <ul className="nav">
             <li style={itemStyle}>
                 <span className="nav-item">
+                    <a href="https://github.com/KatsuMatsushita">
+                    <i class="fab fa-github fa-3x fa-border" alt="link to linkedin profile"></i>
+                    </a>
+                </span>
+            </li>
+            <li style={itemStyle}>
+                <span className="nav-item">
                 <a href="https://www.linkedin.com/in/katsunori-matsushita-84928b90/">
                     <i class="fab fa-linkedin fa-3x fa-border" alt="link to linkedin profile"></i>
+                </a>
+                </span>
+            </li>
+            <li style={itemStyle}>
+                <span className="nav-item">
+                <a href="https://stackexchange.com/users/21848868/katsunori-matsushita">
+                    <i class="fab fa-stack-exchange fa-3x fa-border" alt="link to StackExchange profile"></i>
                 </a>
                 </span>
             </li>
