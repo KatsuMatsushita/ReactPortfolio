@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-export default function work() {
+export default function Portfolio() {
   return (
     <Container
         style={{
